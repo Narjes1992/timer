@@ -1,0 +1,59 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.chrono{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    background-position: center center;
+    background-size: 40%;
+    margin-top: -70px
+}
+.clock{
+    font-family: 'Modak';
+    font-size: 90px;
+    margin-top: 100px;
+    margin-left: -40px
+}
+.clock span{
+    color:rgb(0, 0, 0)
+}
+.tag{
+    font-family: 'Modak';
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 338px;
+    margin-top: 40px;
+    margin-left: -20px
+}
+.btns{
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: -30px;
+    
+}
+.btn-start{
+    padding: 10px 20px;
+    font-family: 'Modak';
+    font-size: 20px;
+    color: rgb(4, 187, 4);
+    border-radius: 100%;
+}
+.btn-reset{
+    padding: 10px 20px;
+    font-family: 'Modak';
+    font-size: 20px;
+    color: rgb(254, 0, 0); 
+    border-radius: 100%;
+}
